@@ -8,3 +8,7 @@ An app that lets you easily check your current step count and weekly step trends
 - Automatically retrieve step data from HealthKit (no user action required)
 - Set a daily step goal
 - Receive a push notification when the daily step goal is achieved
+
+## 📝 License
+
+See [LICENSE.txt](./LICENSE.txt) for details about this project's license.
