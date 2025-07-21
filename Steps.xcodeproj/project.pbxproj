@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B8B9A57C2E2DD4D8005897D9 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = B8B9A57B2E2DD4D8005897D9 /* Core */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B8B9A55D2E2B6EBC005897D9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8B9A57C2E2DD4D8005897D9 /* Core in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 				B8B9A5512E2B6EBB005897D9 /* iOSApp */,
 				B8B9A55F2E2B6EBC005897D9 /* iOSAppTests */,
 				B8B9A5692E2B6EBC005897D9 /* iOSAppUITests */,
+				B8B9A57A2E2DD4D8005897D9 /* Frameworks */,
 				B8B9A5502E2B6EBB005897D9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +96,13 @@
 				B8B9A5662E2B6EBC005897D9 /* StepsUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B8B9A57A2E2DD4D8005897D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +125,7 @@
 			);
 			name = Steps;
 			packageProductDependencies = (
+				B8B9A57B2E2DD4D8005897D9 /* Core */,
 			);
 			productName = Steps;
 			productReference = B8B9A54F2E2B6EBB005897D9 /* Steps.app */;
@@ -195,6 +209,9 @@
 			);
 			mainGroup = B8B9A5462E2B6EBB005897D9;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B8B9A5792E2DD4B3005897D9 /* XCLocalSwiftPackageReference "Packages/Core" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B8B9A5502E2B6EBB005897D9 /* Products */;
 			projectDirPath = "";
@@ -558,6 +575,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		B8B9A5792E2DD4B3005897D9 /* XCLocalSwiftPackageReference "Packages/Core" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Core;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B8B9A57B2E2DD4D8005897D9 /* Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8B9A5792E2DD4B3005897D9 /* XCLocalSwiftPackageReference "Packages/Core" */;
+			productName = Core;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B8B9A5472E2B6EBB005897D9 /* Project object */;
 }
